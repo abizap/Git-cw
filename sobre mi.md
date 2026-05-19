@@ -93,4 +93,6 @@ Algo sobre mí : Me gustan los gatos
 | `chore` | Tareas de mantenimiento |
 ## Gustos
 - chialquiles
-- gatos
+- mango
+- rojo
+- michis
