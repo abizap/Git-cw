@@ -94,5 +94,4 @@ Algo sobre mí : Me gustan los gatos
 ## Gustos
 - chialquiles
 - mango
-- rojo
 - michis
