@@ -59,11 +59,11 @@ Algo sobre mí : Me gustan los gatos
 | Comando | ¿Qué hace? |
 |---------|------------|
 | `git init` | Inicializa el repositorio |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git status` | Ve los estados del archivo |
+| `git add .` | Agrega al sataging area |
+| `git commit -m "..."` | Registra los cambios |
+| `git log --oneline` | Ve el historial |
+| `git push` |  |
 
 ---
 
