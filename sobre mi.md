@@ -91,3 +91,7 @@ Algo sobre mí : Me gustan los gatos
 | `style` | Formato, sin cambiar contenido |
 | `refactor` | Reorganizo sin cambiar el resultado |
 | `chore` | Tareas de mantenimiento |
+## Gustos
+- chialquiles
+- gatos
+- rojo
