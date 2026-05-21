@@ -13,7 +13,7 @@ Edita → `git add practica-commits.md` → `git commit -m "..."`
 ```
 Nombre     : Abigail Zapata Gonzalez
 GitHub     : abizap
-Algo sobre mí : Me gustan los michis
+Algo sobre mí : Me gustan los michisnj
 ```
 
 ---
