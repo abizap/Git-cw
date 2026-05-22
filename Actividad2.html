@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explicación de código en C">
+    <meta name="author" content="Abigail Zapata Gonzalez ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2</title>
+</head>
+<body>
+
+    <h1>Actividad 2</h1>
+    <p><strong>Abigail Zapata Gonzalez </strong></p>
+    <h2>Código</h2>
+    <pre>
+    #include &lt;stdio.h&gt;
+    int main() 
+    {
+        int edad;
+        printf("¿Cuántos años tienes? ");
+        scanf("%d", &amp;edad);
+        if (edad >= 18)     
+        {
+            printf("Eres mayor de edad.\n");
+        }
+        else 
+        {
+            printf("Eres menor de edad.\n");
+        }
+    return 0;
+    }
+    </pre>
+    <h2>Explicación:</h2>
+    <h3>Inclusión de librería</h3>
+    <p><code>#include &lt;stdio.h&gt;</code></p>
+    <p>Incluye la librería estándar de entrada/salida, necesaria para usar <code>printf</code> y <code>scanf</code>.</p>
+    <h3>Función principal</h3>
+    <p><code>int main()</code></p>
+    <p>Todo programa en C comienza ejecutándose desde esta función.</p>
+    <h3>Declaración de variable</h3>
+    <p><code>int edad;</code></p>
+    <p>Declara una variable de tipo entero llamada <code>edad</code> para almacenar el número que ingrese el usuario.</p>
+    <h3>Solicitar datos al usuario</h3>
+    <p><code>printf("¿Cuántos años tienes? ");</code></p>
+    <p>Muestra el mensaje en pantalla.</p>
+    <p><code>scanf("%d", &amp;edad);</code></p>
+    <p>Lee un número entero desde el teclado y lo guarda en la variable <code>edad</code>. El <code>&amp;</code> indica la dirección de memoria donde se guarda.</p>
+    <h3>Condicional <code>if</code></h3>
+    <p><code>if (edad >= 18)</code></p>
+    <p>Evalúa si la edad es <strong>mayor o igual a 18</strong>.</p>
+    <ul>
+        <li>Si es <strong>verdadero</strong> ejecuta <code>printf("Eres mayor de edad.\n");</code></li>
+        <li>Si es <strong>falso</strong> ejecuta <code>printf("Eres menor de edad.\n");</code></li>
+    </ul>
+    <h3>Fin del programa</h3>
+    <p><code>return 0;</code></p>
+    <p>Indica que el programa terminó correctamente.</p>
+    <hr>
+</body>
+</html>
