@@ -1,0 +1,97 @@
+th, td 
+{
+    border-color: black;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+caption{
+    font-family:cursive;
+}
+
+.nombre, .color_fav, .tableHead{
+    font-family: cursive;
+}
+
+#regina .color_fav{
+    background-color: orange;
+}
+
+#regina .color_fav:hover{
+    background-color: black;
+    color: orange;
+}
+
+#erik .color_fav{
+    background-color: green;
+}
+
+#erik .color_fav:hover{
+    background-color: black;
+    color: green;
+}
+
+#abigail .color_fav{
+    background-color: red;
+}
+
+#abigail .color_fav:hover{
+    background-color: black;
+    color: red;
+}
+
+#diego .color_fav{
+    background-color: purple;
+}
+
+#diego .color_fav:hover{
+    background-color: black;
+    color: purple;
+}
+
+#luisa .color_fav{
+    background-color: blue;
+}
+
+#luisa .color_fav:hover{
+    background-color: black;
+    color: blue;
+}
+
+#isaac .color_fav{
+    background-color: yellow;
+}
+
+#isaac .color_fav:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.nombre {
+    background-color: cornsilk;
+}
+
+.tableHead {
+    background-color: bisque;
+}
+
+@media only screen and (min-width:500px){
+    body{
+        background-color: aquamarine;
+    }
+}
+
+.note{
+    border: 5px solid;
+    margin-left: 355px;
+    background-color: cadetblue;
+    padding: 10px; 
+    border-color: black;
+    position: sticky;
+    top: 50px;
+    right: 50px;
+    z-index: 1000;
+    font-family: cursive;
+}
